@@ -1,0 +1,710 @@
+
+/*Navber*/
+
+
+.navbarcontainer{
+	display: block;
+	height: 70px;
+	background-color: #2F2F2F;
+	margin-left: 1%;
+
+}
+
+.navbarcontainer_Grey{
+	display: block;
+	height: 70px;
+	background-color: #F0F0F0;
+	margin-left: 1%;
+
+}
+
+.navbarcontainer_vi{
+	display: block;
+	height: 70px;
+	background-color: #E6E6E6;
+	margin-left: 1%;
+
+}
+.wrapper{
+
+
+	height: 1000px;
+}
+
+
+/*navbar*/
+
+
+.image{
+
+	
+	width: 100px;
+	margin: 16px;
+	margin-left: 32px;
+	margin-bottom: 0px;
+}
+
+
+.navbar{
+	
+	position: fixed;
+	width: 98%;
+	background-color: #333333;
+	line-height: 40px;
+	border-radius: 10px;
+	top: 0;
+	box-shadow: 1px 1px 5px #000000;
+	z-index: 50;
+	display: block;
+	transition: 0.4s;
+
+
+}
+
+.navbar_Grey{
+	
+	position: fixed;
+	width: 98%;
+	background-color: #F0F0F0;
+	line-height: 40px;
+	border-radius: 10px;
+	top: 0;
+	box-shadow: 1px 1px 5px #000000;
+	z-index: 50;
+	display: block;
+	transition: 0.4s;
+
+
+}
+
+.navbar_vi{
+	
+	position: fixed;
+	width: 98%;
+	background-color: #F6F6F6;
+	line-height: 40px;
+	border-radius: 10px;
+	top: 0;
+	box-shadow: 1px 1px 5px #000000;
+	z-index: 50;
+	display: block;
+	transition: 0.4s;
+
+
+}
+
+
+.nav-item > li{
+	float: left;
+	
+
+} 
+
+.item{
+	color: white;
+	padding: 4px;
+	margin-left: 16px;
+	margin-right: 16px;
+	display: block;
+	text-decoration: none;
+	text-align: right;
+	line-height: 40px;
+}
+
+
+
+.item_Grey{
+
+	color: #333333;
+	padding: 4px;
+	margin-left: 16px;
+	margin-right: 16px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	line-height: 40px;
+}
+
+.aboutme{
+	width: 100px;
+	height: 46px;
+	padding: 4px;
+	padding-right: ;
+	vertical-align: middle;
+	text-align: center;
+	background-color: #b2cfac;
+	border-radius: 10px;
+
+}
+
+.nav{
+
+	margin-right: 8px;
+	display: block;
+}
+
+
+.item_logo{
+
+	float: left;
+}
+
+.item_nav{
+
+	float: right;
+	margin-top: 8px;
+	display: block;
+}
+
+a{
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	display: block;
+	line-height: 40px;
+
+}
+
+
+.box{
+	position:absolute;
+	top: 16px;
+	right: 16px;
+	
+	width: 24px;
+	height: 24px;
+	background-color: #333333;
+	z-index: 50;
+}
+
+.box_Grey{
+	position:absolute;
+	top: 16px;
+	right: 16px;
+	
+	width: 24px;
+	height: 24px;
+	background-color: #F0F0F0;
+	z-index: 50;
+}
+
+.hamber-top{
+	width: 24px;
+	height: 2px;
+	background-color: white;
+	color: white;
+	position: absolute;
+	top: 2px;
+}
+
+
+
+.hamber-middle{
+	width: 24px;
+	height: 2px;
+	background-color: white;
+	color: white;
+	position: absolute;
+	top: 11px;
+	
+}
+
+.hamber-bottom{
+	width: 24px;
+	height: 2px;
+	background-color: white;
+	color: white;
+	position: absolute;
+	top: 20px;
+}
+
+.reponsive_pop{
+
+	display: block;
+
+
+
+}
+
+.box{
+	display: none;
+}
+
+.box_Grey{
+	display: none;
+}
+
+
+
+
+/*-----*/
+
+
+.pop-icon{
+		display: none;
+	}
+
+
+.icon{
+
+	display: none;
+}
+
+
+
+
+
+
+@media (max-width:768px){
+
+	.box{
+		display: block;
+	}
+
+	.box_Grey{
+		display: block;
+	}
+
+	.pop-icon{
+		display: none;
+	}
+
+	.reponsive_pop{
+
+		
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		background-color: #333;
+		z-index: 100;
+		padding-top: 20px;
+		visibility: hidden;
+		opacity: 0;
+		transition: all 0.3s;
+
+
+	}
+
+	.reponsive_pop_Grey{
+
+		
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		background-color: #F0F0F0;
+		z-index: 100;
+		padding-top: 20px;
+		visibility: hidden;
+		opacity: 0;
+		transition: all 0.3s;
+
+	}
+
+	
+
+	.reponsive_pop .item{
+
+		display: block;
+		width: 100%;
+
+	}
+
+	.reponsive_pop_Grey .item{
+
+		display: block;
+		width: 100%;
+
+	}
+
+	.reponsive_pop .aboutme{
+
+		background-color: #333333;
+	}
+
+	.reponsive_pop_Grey .aboutme{
+
+		background-color: #F0F0F0;
+	}
+
+	.icon{
+
+	display: block;
+	text-align: right;
+	margin-right: 20px;
+	font-size: 20px;
+
+	
+	}
+
+	.AB{
+		color:#7d7c7c;
+	}
+
+
+
+
+
+
+
+	#pop:target{
+
+		
+		opacity: 1;
+		visibility: visible;
+
+	}
+
+	.container_page .puzzle_row .col_thrid{
+		
+		display: none;
+	}
+	.container_page .puzzle_row .col_half{
+		
+		display: block;
+		width: 50%;
+		float: left;
+
+	}
+	.col_four .tt{
+		
+		display: none;
+
+	}
+
+	.col_th .tt{
+		
+		display: none;
+
+	}
+
+
+
+
+
+
+}
+
+.col_up{
+	margin-top: -15px !important;
+}
+
+.col_half{
+		display: none;	
+
+	}
+/*TEXT*/
+
+.pagehome{
+	width: 100%;
+	height: 100%;
+	background-color: #333333;
+
+}
+
+
+.row_puzzle{
+	
+	position: absolute;
+	display: block;
+	left: 10%;
+	right: 10%;
+	
+
+
+}
+
+
+
+.container_page{
+
+	display: block;
+	border: solid black 1px ;
+	min-height: 20px;
+	background-color: #333333;
+
+
+
+}
+
+
+.little_tittle{
+	position: relative;
+	color: white;
+	display: block;
+
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #333333;
+	margin-top: -4px;
+	
+}
+
+.col_thrid{
+	display: block;
+	width: 33.3333%;
+	float: left;
+	
+}
+
+.puzzle_image{
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+}
+
+
+.puzzle_image:hover{
+	background-color: black;
+	visibility: visible;
+	opacity: 0.9;
+
+
+}
+.container_page{
+
+	display: block;	
+	border: solid black 0px ;
+	min-height: 20px;
+	background-color: #333333;
+}
+
+.puzzle_row{
+
+	display: block;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+
+.con1{
+	display: block;
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background-color:#333333;
+}
+
+.textimage{
+	display: block;
+	width: 100%;
+}
+
+.textimage_m{
+	display: block;
+	width: 100%;
+	padding-right: 25%;
+	padding-left: 25%;
+	
+}
+
+.text{
+	vertical-align: middle;
+	text-align: center;
+	color: white;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.text_H{
+	vertical-align: middle;
+	text-align: center;
+	color: white;
+	font-weight: 400;
+	font-size: 24px;
+}
+
+
+.container_AB{
+	
+	margin-right: auto;
+ 	margin-left: auto;
+  	padding-left: 16px;
+  	padding-right: 16px;
+	background-color: #333333;
+}
+
+.puzzle_box{
+	display: block;
+	float: left;
+	height: 40px;
+	width: 40px;
+	margin: 8px;
+}
+
+.date{
+	display: block;
+	width: 100%;
+}
+
+.text_ab{
+
+	display:block;
+	font-size: 24px;
+	color: white;
+	float: left;
+	text-align: left;
+	line-height: 40px;
+
+
+}
+
+
+
+.th_half{
+	display: block;
+	height: 100%;
+	width: 100%;
+	text-align: right;
+	color: white;
+}
+
+.th_half_left{
+	height: 100%;
+	width: 100%;
+	text-align: left;
+	color: white;
+}
+
+.text_col_third{
+
+	margin-left: 20%;
+	margin-right: 20%;
+
+}
+
+
+.text_col_four{
+	margin-left: 10%;
+	margin-right: 10%;
+	
+}
+
+
+.hh{
+	display: block;
+	min-height: 100px;
+	width: 100%;
+	text-align: right;
+	font-size: 24px;
+
+
+}
+
+.fromright{
+	
+	animation-name: ann;
+	animation-duration: 1s;
+}
+
+.fromleft{
+	
+	animation-name: ant;
+	animation-duration: 1s;
+}
+
+@keyframes ann{
+	from{margin-left: 100px;
+	}
+	to{margin-left: 0px;}
+}
+
+@keyframes ant{
+	from{margin-left: -100px;
+	}
+	to{margin-left: 0px;}
+}
+
+
+.po{
+	display: block;
+	height: 100%;
+}
+
+.puzzle_col{
+	display: block;
+	max-height: 56px;
+	width: 100%;
+	text-align: center;
+	padding-left: 30%;
+	padding-right: 30%;
+	margin-top: 24px;
+	margin-bottom: 24px;
+	line-height: 60px;
+
+}
+
+.tittle_my{
+	color: white;
+
+
+}
+.tittle_t{
+		position: relative;
+
+		left: 50%;
+		transform: translate(-50%,-50%);
+
+		display:block;
+		text-align:center;
+		line-height: 80px;
+		font-size:24px;
+		color: white;
+}
+
+.col_four{
+	display: inline-block;
+	width: 12.5%;
+	height: 30px;
+	border: 0px solid black;
+}
+
+.col_th{
+	display: inline-block;
+	width: 16.6666%;
+	height: 20px;
+	border: 0px solid black;
+}
+.image_logo{
+	display: block;
+	position: relative;
+	width: 100%;
+	min-height: 40px;
+	min-width: 40px;
+	max-height: 60px;
+	max-width: 60px;
+	width: 100%;
+	left: 50%;
+	transform: translateX(-60%);
+	margin: 4px;
+	padding: 8px;
+}
+
+.image_logo_code{
+	position: relative;
+	margin: 4px;
+	padding: 4px;
+	min-height: 40px;
+	width: 100%;
+	max-height: 80px;
+	max-width: 80px;
+	left: 50%;
+	transform: translateX(-60%);
+}
+.tt{
+	display: inline-block;
+
+	color: white;
+	width: 100%;
+	text-align: center;
+	vertical-align: top;
+	font-size: 24px;
+
+
+}
+
+
